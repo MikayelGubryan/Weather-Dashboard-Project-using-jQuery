@@ -1,0 +1,1 @@
+npx postcss css/main.css -o public/build/tailwind.css

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <!-- Ensure Tailwind CSS is included -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-blue-200 to-blue-400">
+    <div class="max-w-screen-md mx-auto bg-white shadow-md rounded-lg p-6 mt-8">
+        <h1 class="text-3xl font-bold text-center mb-4 text-blue-800">Weather Dashboard</h1>
+        <div class="flex justify-center mb-4">
+            <input type="text" id="city-input" placeholder="Enter city name..." class="px-4 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-400">
+            <button id="search-btn" class="px-4 py-2 bg-blue-600 text-white rounded-r-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400">Search</button>
+        </div>
+        <div id="weather-info" class="text-center mb-8">
+            <h2 class="text-xl font-semibold mb-2 text-gray-800">New York</h2>
+            <h3 class="text-lg text-gray-600 mb-2">New York, United States</h3>
+            <h3 class="text-lg text-gray-600 mb-2">Local Time: 2024-07-16 14:30</h3>
+            <h3 class="text-lg text-gray-600 mb-2">Temperature: 25°C / 77°F</h3>
+            <h3 class="text-lg text-gray-600 mb-2">Condition: Partly cloudy</h3>
+            <img src="https://www.weatherapi.com/docs/static/img/weather/64/c.png" alt="Partly cloudy" class="mx-auto">
+        </div>
+        <div id="map" class="w-full h-64 rounded-lg shadow-md"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="js/JQ.js"></script>
+</body>
+</html>

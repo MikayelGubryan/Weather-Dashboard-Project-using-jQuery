@@ -1,0 +1,55 @@
+        <!-- Your JavaScript file -->
+
+ 
+        <!-- Leaflet JavaScript -->
+
+ 
+// Function to fetch weather data and display on map
+
+ 
+    var cityKey = "cb1bba0ee8fe4a0c91910829241607";
+
+ 
+            // Update map to show location of city
+
+ 
+        <h2>${data.location.name}</h2>
+
+ 
+            </div>
+
+ 
+            <div id="weather-info">
+
+ 
+        <div id="weather-info">
+
+ 
+    <link rel="stylesheet" href="css/main.css">
+ 
+    console.log(data);
+
+ 
+console.log(err);
+ 
+    $("#search-btn").click(function () {
+        search();
+    });
+ 
+ flex justify-center
+ 
+    <link rel="stylesheet" href="tailwind.config.js">
+ 
+npx postcss css/main.css -o public/build/tailwind.css
+
+ 
+      // Add more PostCSS plugins here if needed
+ 
+// tailwind.config.js
+ 
+    // Add more PostCSS plugins if needed
+
+ 
+/* In your CSS file, import Tailwind's base styles */
+
+ 

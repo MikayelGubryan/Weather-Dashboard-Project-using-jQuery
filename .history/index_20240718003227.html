@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="max-w-screen-md mx-auto bg-red-20">
+        <h1 class="text-3xl font-bold text-center mt-4 mb-2">Weather Dashboard</h1>
+        <div class="flex justify-center gap-2 mb-4">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="weather-info" class="text-center">
+            <h2>New York</h2>
+            <h3>New York, United States</h3>
+            <h3>Local Time: 2024-07-16 14:30</h3>
+            <h3>Temperature: 25°C / 77°F</h3>
+            <h3>Condition: Partly cloudy</h3>
+            <img src="https://www.weatherapi.com/docs/static/img/weather/64/c.png" alt="Partly cloudy">
+        </div>
+        <div id="map" class="w-64 h-64"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="js/JQ.js"></script>
+    </body>
+</html>
